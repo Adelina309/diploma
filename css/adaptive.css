@@ -1,0 +1,1392 @@
+@media screen and (min-width: 1921px) {
+    #main {
+        background-size: 100%;
+        background-position: bottom center;
+    }
+}
+
+
+/*1200-1212*/
+@media screen and (max-width: 1212px) {
+    #main {
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    #titles #icon {
+        right: 74px;
+    }
+
+    #guaranties-container {
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    #projects {
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .project-info .project-info-properties .project-info-property {
+        margin-right: 15px;
+    }
+
+    #advantages {
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    #reviews {
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    #order-container {
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    #footer {
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+}
+
+/*1024-1184*/
+@media screen and (max-width: 1184px) {
+
+    .slick-initialized .slick-slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #projects #projects-container .projects .project .project-image {
+        margin: 0 auto;
+    }
+
+    #projects #projects-container .projects .project .project-info {
+        margin: 0 auto;
+    }
+
+    .project-info .project-info-text .project-info-text-description {
+        text-align: center;
+    }
+
+    .project-info .project-info-properties {
+        justify-content: space-between;
+        margin-top: 35px;
+    }
+
+    .project-info .small-number {
+        margin-bottom: 0;
+        position: relative;
+        top: 20px;
+        left: -100px;
+
+    }
+
+    .project-info h3 {
+        margin: 0 0 22px 0;
+    }
+
+    .slick-dots {
+        left: 0;
+        top: 510px;
+    }
+
+    .slick-prev {
+        left: 30px;
+    }
+
+    .slick-next {
+        left: unset;
+        right: 30px;
+    }
+
+    #reviews-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #advantages #guarantee-container #quote #quote-quotes {
+        right: 588px;
+    }
+
+}
+
+/*1091-1124*/
+@media screen and (max-width: 1124px) {
+    #advantages #guarantee-container #quote #quote-quotes {
+        right: 552px;
+    }
+
+}
+
+/*1024-1090*/
+@media screen and (max-width: 1090px) {
+    #second-guaranty {
+        top: 310px;
+        right: 15px;
+    }
+
+    #third-guaranty {
+        top: 480px;
+        left: 50px;
+    }
+
+    #fourth-guaranty {
+        top: 688px;
+        right: 15px;
+    }
+
+    #guaranties {
+        height: 1000px;
+        background-size: 100% 100%;
+    }
+
+    #advantages-container-images {
+        width: 590px;
+    }
+
+    #advantages-container-images img {
+        width: 100%;
+    }
+
+    #order #order-container img {
+        left: unset;
+        right: -250px;
+    }
+
+    #advantages #guarantee-container #quote #quote-text {
+        max-width: 471px;
+    }
+
+    #advantages #guarantee-container #quote #quote-quotes {
+        right: 500px;
+    }
+
+    #statistics .statistics-item {
+        max-width: 265px;
+    }
+
+    #statistics .statistics-item .statistics-item-text {
+        font-size: 17px;
+    }
+
+}
+
+/*768-1023*/
+@media screen and (max-width: 1023px) {
+    #advantages #guarantee-container #quote #quote-text {
+        max-width: 458px;
+    }
+
+    #advantages #guarantee-container #quote #quote-quotes {
+        right: 474px;
+    }
+
+    #advantages #guarantee-container #quote #quotes-author {
+        font-size: 16px;
+        right: 165px;
+    }
+
+    #advantages-container-images {
+        width: 560px;
+    }
+}
+
+/*768-1000*/
+@media screen and (max-width: 1000px) {
+    #order #order-container img {
+        top: 100px;
+    }
+
+    #advantages #guarantee-container #quote #quote-text {
+        font-size: 18px;
+        max-width: 400px;
+    }
+
+    #advantages #guarantee-container #quote #quote-quotes {
+        right: 424px;
+    }
+
+    #advantages #guarantee-container #quote #quotes-author {
+        font-size: 15px;
+        right: 125px;
+    }
+
+    #advantages #guarantee-container #quote #quotes-signature {
+        width: 125px;
+    }
+
+    #advantages #guarantee-container #quote #quotes-signature img {
+        width: 100%;
+    }
+
+    #statistics .statistics-item .statistics-item-number {
+        height: 175px;
+    }
+
+    #statistics .statistics-item img {
+        height: 100%;
+    }
+
+    #advantages-container-images {
+        width: 510px;
+    }
+
+    #footer #footer-container #logo-icon #footer-icons {
+        width: 130px;
+    }
+
+    #footer #footer-container .footer-info .footer-info-title {
+        font-size: 18px;
+    }
+
+    #footer #footer-container .footer-info .footer-info-text {
+        font-size: 14px;
+    }
+
+    #footer #footer-container #footer-contacts .footer-contact .footer-contact-text {
+        font-size: 18px;
+    }
+
+    #header .logo {
+        padding-right: 100px;
+    }
+
+    #reviews #reviews-text {
+        line-height: 30px;
+    }
+
+
+}
+
+/*768-960*/
+@media screen and (max-width: 960px) {
+    #advantages #guarantee-container #quote #quote-text {
+        font-size: 16px;
+        max-width: 350px;
+    }
+
+    #advantages #guarantee-container #quote #quote-quotes {
+        right: 366px;
+    }
+
+    #advantages #guarantee-container #quote #quotes-author {
+        font-size: 14px;
+        width: 215px;
+    }
+
+    #advantages #guarantee-container #quote #quotes-signature {
+        width: 110px;
+    }
+
+    #titles #icon {
+        right: 30px;
+    }
+
+    #statistics {
+        margin: 140px 20px;
+    }
+
+    #advantages-container-images {
+        width: 480px;
+    }
+
+}
+
+/*768-932*/
+@media screen and (max-width: 932px) {
+
+    #header .logo {
+        padding-right: 60px;
+    }
+
+    #second-guaranty {
+        top: 335px;
+    }
+
+    #fourth-guaranty {
+        top: 715px;
+    }
+
+    .slick-prev {
+        left: 70px;
+    }
+
+    .slick-next {
+        right: 70px;
+    }
+
+    #statistics .statistics-item .statistics-item-number {
+        height: 160px;
+    }
+
+}
+
+/*767-870*/
+@media screen and (max-width: 870px) {
+    #order #order-container img {
+        display: none;
+    }
+
+    #order #order-container #order-form {
+        margin: 0 auto;
+    }
+
+    #order #order-container #order-text {
+        margin: 49px auto 70px auto;
+    }
+
+    #reviews #reviews-text {
+        margin: 49px auto 82px auto;
+        max-width: 718px;
+    }
+
+    #advantages #guarantee-container #quote #quote-quotes {
+        display: none;
+    }
+
+    #advantages-container-images {
+        width: 420px;
+    }
+
+    #first-guaranty {
+        top: 80px;
+    }
+
+    #second-guaranty {
+        top: 310px;
+    }
+
+    #third-guaranty {
+        top: 470px;
+    }
+
+    #statistics .statistics-item .statistics-item-number {
+        height: 150px;
+    }
+
+    #statistics .statistics-item .statistics-item-text {
+        font-size: 17px;
+        max-width: 205px;
+    }
+
+    #statistics {
+        margin: 140px 20px 100px 20px;
+    }
+
+    #order #order-container #order-form {
+        margin: 0 auto 60px auto;
+    }
+
+    #footer #footer-container #logo-icon #footer-icons {
+        width: 110px;
+    }
+
+    #footer #footer-container .footer-info .footer-info-title {
+        font-size: 17px;
+    }
+
+    #footer #footer-container .footer-info .footer-info-text {
+        font-size: 13px;
+    }
+
+    #footer #footer-container #footer-contacts .footer-contact .footer-contact-text {
+        font-size: 17px;
+    }
+
+    #advantages #guarantee-container #quote #quote-text {
+        max-width: 325px;
+    }
+
+}
+
+/*580-835*/
+@media screen and (max-width: 835px) {
+    #advantages #guarantee-container #quote #quote-text {
+        max-width: 303px;
+    }
+
+    #header {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #burger {
+        display: block;
+        font-size: 40px;
+        color: white;
+    }
+
+    #header {
+        position: relative;
+    }
+
+    #menu {
+        top: 76px;
+        right: 0;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: 3;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        display: none;
+    }
+
+    #menu a {
+        padding: 10px 0;
+    }
+
+
+    #header.menu-open #menu {
+        display: flex;
+    }
+
+    .project-image {
+        width: 614px;
+        height: 383px;
+    }
+
+    .slick-dots {
+        top: 425px;
+    }
+
+    .slick-prev {
+        left: 20px;
+    }
+
+    .slick-next {
+        right: 20px;
+    }
+}
+
+/*580-815*/
+@media screen and (max-width: 815px) {
+    #advantages #guarantee-container #quote {
+        width: 99%;
+        top: 322px;
+        right: 0px;
+        height: 270px;
+    }
+
+    #advantages #guarantee-container #guarantee {
+        position: relative;
+        margin: 0 auto;
+        z-index: 3;
+    }
+
+    #advantages #guarantee-container #quote #quote-quotes {
+        display: block;
+        right: 640px;
+        top: 40px;
+        z-index: -1;
+    }
+
+    #advantages #guarantee-container #quote #quote-text {
+        max-width: 471px;
+    }
+
+    #advantages #guarantee-container #quote #quote-text {
+        position: static;
+        margin: 0 auto;
+        padding-top: 70px;
+        max-width: 504px;
+    }
+
+    #reviews {
+        margin: 352px auto 0 auto;
+    }
+
+    #statistics .statistics-item .statistics-item-number {
+        height: 140px;
+    }
+
+    #statistics .statistics-item .statistics-item-number {
+        order: 1;
+    }
+
+    #footer #footer-container #footer-contacts {
+        order: 2;
+    }
+
+    #footer #footer-container .footer-info {
+        order: 3;
+    }
+
+    #footer #footer-container {
+        max-width: 532px;
+        flex-wrap: wrap;
+    }
+
+    #footer #footer-container #logo-icon #footer-icons {
+        width: 156px;
+    }
+
+    #footer {
+        background-size: auto 100%;
+    }
+
+}
+
+/*580-767*/
+@media screen and (max-width: 767px) {
+
+    #titles-kitchen {
+        font-size: 40px;
+    }
+
+    #titles-key span {
+        font-size: 22px;
+    }
+
+    #second-guaranty {
+        top: 320px;
+    }
+
+    #third-guaranty {
+        top: 500px;
+    }
+
+    #fourth-guaranty {
+        top: 760px;
+    }
+
+    #guaranties {
+        height: 1135px;
+        background-size: auto 100%;
+    }
+
+    #projects .title {
+        margin-top: 70px;
+    }
+
+    .slick-prev {
+        top: 260px;
+    }
+
+    .slick-next {
+        top: 260px;
+    }
+
+    #statistics .statistics-item .statistics-item-number {
+        height: 120px;
+        order: 1;
+    }
+
+    #statistics .statistics-item .statistics-item-text {
+        max-width: 188px;
+        order: 2;
+    }
+
+    #advantages-container-images {
+        position: absolute;
+        width: 100%;
+        opacity: 0.07;
+    }
+
+    #advantages #advantages-container #advantages-container-items {
+        display: block;
+        margin: 0 auto;
+    }
+
+
+}
+
+/*480-745*/
+@media screen and (max-width: 745px) {
+    .slick-prev {
+        left: 52px;
+    }
+
+    .slick-next {
+        right: 52px;
+    }
+
+    #projects #projects-text {
+        margin: 45px auto 0 auto;
+    }
+
+    #advantages #guarantee-container #quote #quote-quotes {
+        right: 580px;
+    }
+
+    #order #order-container #order-form #order-form-active {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    #order #order-container #order-form {
+        width: 585px;
+    }
+
+    #order-form #order-error {
+        left: 165px;
+    }
+
+}
+
+/*480-681*/
+@media screen and (max-width: 681px) {
+    #order-form #order-error {
+        left: 125px;
+        top: 118px;
+    }
+}
+
+/*480-680*/
+@media screen and (max-width: 680px) {
+    #advantages #guarantee-container #quote #quote-text {
+        position: static;
+        margin: 0 auto;
+        padding-top: 70px;
+        max-width: 460px;
+    }
+
+    #advantages #guarantee-container #quote #quote-quotes {
+        right: 535px;
+    }
+
+    #titles #icon {
+        top: 312px;
+    }
+
+    .project-image {
+        width: 491px;
+        height: 306px;
+    }
+
+    .slick-prev {
+        left: 10px;
+        top: 240px;
+    }
+
+    .slick-next {
+        right: 10px;
+        top: 240px;
+    }
+
+    .slick-dots {
+        top: 350px;
+    }
+
+    #statistics {
+        flex-direction: column;
+    }
+
+    #statistics .statistics-item {
+        padding: 20px 0;
+    }
+
+    #statistics .statistics-item .statistics-item-number {
+        height: 150px;
+    }
+    #statistics .statistics-item .statistics-item-text {
+        max-width: 310px;
+        font-size: 18px;
+    }
+
+    #first-guaranty {
+        position: relative;
+        top: unset;
+        left: unset;
+        right: unset;
+        margin: 50px auto;
+    }
+
+    #second-guaranty {
+        position: relative;
+        top: unset;
+        left: unset;
+        right: unset;
+        margin: 50px auto;
+    }
+
+    #third-guaranty {
+        position: relative;
+        top: unset;
+        left: unset;
+        right: unset;
+        margin: 50px auto;
+    }
+
+    #fourth-guaranty {
+        position: relative;
+        top: unset;
+        left: unset;
+        right: unset;
+        margin: 50px auto;
+    }
+
+    .guaranty {
+        position: relative;
+    }
+
+    #guaranty-container {
+        max-width: 442px;
+        margin: 0 auto;
+    }
+
+    .guaranty .guaranty-info .guaranty-info-text {
+        font-size: 15px;
+        font-family: "GilroyMedium",sans-serif;
+        color: rgb(56, 25, 0);
+        max-width: 442px;
+        line-height: 1.667;
+    }
+
+    .guaranty .number {
+        font-size: 150px;
+        font-family: "GilroyBold",sans-serif;
+        color: rgba(126, 123, 121, 0.2);
+        position: absolute;
+    }
+
+    #first-guaranty .number, #second-guaranty .number, #third-guaranty .number, #fourth-guaranty .number {
+        left: -32px;
+        top: -70px;
+    }
+
+    #projects .title {
+        margin-top: 30px;
+    }
+
+    #order #order-container #order-form {
+        width: 500px;
+    }
+
+    #order #order-container #order-form #order-form-text {
+        font-size: 25px;
+        font-family: "GilroyBold",sans-serif;
+        color: rgb(56, 25, 0);
+        line-height: 1.4;
+        text-align: center;
+        margin: 0 auto;
+        padding: 30px 0 15px 0;
+        max-width: 400px;
+    }
+
+}
+
+/*480-640*/
+@media screen and (max-width: 640px) {
+
+    #titles-action button.btn {
+        margin: 97px 0 80px 0;
+    }
+
+    #titles-advantages {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 204px;
+        justify-content: space-between;
+        margin-left: -5px;
+        padding-bottom: 52px;
+    }
+
+    #advantages #guarantee-container #quote #quote-quotes {
+        right: 510px;
+    }
+}
+
+/*480-610*/
+@media screen and (max-width: 610px) {
+    #advantages #guarantee-container #quote #quote-quotes {
+        right: unset;
+        left: 10px;
+    }
+
+    .slick-prev {
+        left: 45px;
+    }
+
+    .slick-next {
+        right: 45px;
+    }
+
+}
+
+
+
+/*480-579*/
+@media screen and (max-width: 579px) {
+
+    #advantages #guarantee-container #quote #quote-quotes {
+        background-size: 100% auto;
+        top: 52px;
+        left: 10px;
+        width: 30px;
+        height: 26px;
+    }
+
+    #reviews #reviews-container .reviews-video iframe {
+        width: 385px;
+        height: 201px;
+    }
+
+    .project-image {
+        width: 393px;
+        height: 251px;
+    }
+
+    .slick-prev {
+        left: 10px;
+        top: 200px;
+    }
+
+    .slick-next {
+        right: 10px;
+        top: 200px;
+    }
+
+    .slick-dots {
+        top: 310px;
+    }
+
+    #order #order-container #order-form {
+        width: 450px;
+    }
+
+    #order-form #order-error {
+        left: 100px;
+    }
+
+}
+
+@media screen and (max-width: 541px) {
+    #order-form #order-error {
+        left: 75px;
+    }
+}
+
+/*480-540*/
+@media screen and (max-width: 540px) {
+    #titles-kitchen {
+        font-size: 35px;
+    }
+
+    #titles-key span {
+        font-size: 20px;
+    }
+
+    #titles-key {
+        height: 50px;
+    }
+
+    #titles-key img {
+        height: 100%;
+    }
+
+    #titles #icon {
+        top: 450px;
+    }
+
+    .title h2 {
+        font-size: 30px;
+    }
+
+    .title h2 span {
+        font-size: 30px;
+    }
+
+    #projects #projects-text {
+        font-size: 18px;
+    }
+
+    .project-info .project-info-properties .project-info-property span {
+        font-size: 17px;
+    }
+
+    .project-info h3 {
+        font-size: 20px;
+    }
+
+    .project-info .small-number {
+        font-size: 80px;
+    }
+
+    .project-info .project-info-text .project-info-text-title {
+        font-size: 17px;
+    }
+
+    .project-info .project-info-text .project-info-text-description {
+        font-size: 17px;
+    }
+
+    #statistics .statistics-item .statistics-item-text {
+        font-size: 17px;
+    }
+
+    #advantages #guarantee-container #quote #quote-quotes {
+        display: none;
+    }
+
+    #reviews #reviews-text {
+        font-size: 18px;
+    }
+
+    #reviews #reviews-container {
+         margin: 0;
+    }
+
+    #order #order-container #order-text {
+        font-size: 18px;
+    }
+
+    #footer #footer-text {
+        font-size: 13px;
+    }
+
+    #order #order-container #order-form {
+        width: 400px;
+    }
+
+    #guaranty-container {
+        margin: 0 10px 0 auto;
+    }
+
+}
+
+/*480-499*/
+@media screen and (max-width: 515px) {
+    .slick-prev {
+        left: 47px;
+    }
+
+    .slick-next {
+        right: 47px;
+    }
+
+    .project-info .small-number {
+        left: -70px;
+    }
+
+    #advantages #guarantee-container #quote #quote-text {
+        position: static;
+        margin: 0 auto;
+        padding-top: 50px;
+        max-width: 400px;
+    }
+}
+
+/*480-499*/
+@media screen and (max-width: 499px) {
+    .slick-prev {
+        left: 36px;
+    }
+
+    .slick-next {
+        right: 36px;
+    }
+
+    #guaranty-container {
+        margin: 0px auto;
+    }
+
+    #first-guaranty .number, #second-guaranty .number, #third-guaranty .number, #fourth-guaranty .number {
+        left: 0px;
+        top: -79px;
+    }
+}
+
+/*320-476*/
+@media screen and (max-width: 476px) {
+
+    #titles-kitchen {
+        font-size: 30px;
+    }
+
+    #footer #footer-container {
+        max-width: 316px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #footer #footer-container #logo-icon #footer-icons {
+        margin-bottom: 40px;
+    }
+
+    #footer #footer-container #logo-icon .logo {
+        margin: 55px auto 55px auto;
+    }
+
+    #footer #footer-container .footer-info {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .guaranty .guaranty-info .guaranty-info-text {
+        max-width: 410px;
+    }
+
+    .project-image {
+        width: 314px;
+        height: 201px;
+    }
+
+    .slick-prev {
+        left: 10px;
+        top: 170px;
+    }
+
+    .slick-next {
+        right: 10px;
+        top: 170px;
+    }
+
+    .project-info {
+        margin-top: 20px;
+    }
+
+    .project-info .small-number {
+        left: -50px;
+    }
+
+    #advantages #guarantee-container #guarantee {
+        width: 299px;
+        height: 242px;
+    }
+
+    #advantages #guarantee-container #guarantee #guarantee-orange-container {
+        left: 10px;
+        top: 8px;
+        width: 274px;
+        height: 221px;
+    }
+
+    #advantages #guarantee-container #guarantee #guarantee-orange-container #guarantee-orange-number {
+        font-size: 150px;
+        left: 16px;
+        top: 2px;
+    }
+
+    #advantages #guarantee-container #guarantee #guarantee-orange-container #guarantee-orange-years {
+        font-size: 70px;
+        right: -7px;
+        top: 37px;
+    }
+
+    #advantages #guarantee-container #guarantee #guarantee-orange-container #guarantee-orange-warranty {
+        font-size: 55px;
+        left: 15px;
+    }
+
+    #advantages #guarantee-container #quote {
+        top: 220px;
+    }
+
+    #advantages #guarantee-container #quote #quote-text {
+        margin: 0 10px;
+    }
+
+}
+
+/*320-476*/
+@media screen and (max-width: 426px) {
+
+    .guaranty .guaranty-info .guaranty-info-text {
+        max-width: 340px;
+    }
+
+    .slick-prev {
+        left: 40px;
+    }
+
+    .slick-next {
+        right: 40px;
+    }
+
+    #order #order-container #order-form {
+        width: 300px;
+    }
+
+    #order #order-container #order-form input {
+        width: 240px;
+        padding: 26px 0 26px 17px;
+    }
+
+    #order #order-container #order-form button.btn {
+        width: 240px;
+    }
+
+    #order #order-container #order-form #order-form-text {
+        font-size: 22px;
+    }
+
+    #reviews #reviews-container .reviews-video iframe {
+        width: 305px;
+        height: 171px;
+    }
+
+    #order-form #order-error {
+        left: 35px;
+        top: 110px;
+        font-size: 16px;
+    }
+
+}
+
+/*320-411*/
+@media screen and (max-width: 411px) {
+    #titles #icon {
+        top: 490px;
+    }
+
+    .project-info .project-info-properties .project-info-property span {
+        font-size: 16px;
+    }
+
+    .slick-prev {
+        left: 25px;
+    }
+
+    .slick-next {
+        right: 25px;
+    }
+
+}
+
+@media screen and (max-width: 382px) {
+    #advantages #guarantee-container #quote #quotes-author {
+        font-size: 13px;
+        width: 190px;
+    }
+
+    .project-info .small-number {
+        left: -20px;
+    }
+
+    .slick-prev {
+        left: 20px;
+    }
+
+    .slick-next {
+        right: 20px;
+    }
+
+    .project-info .project-info-properties {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-info .project-info-properties .project-info-property {
+        margin: 10px 0;
+    }
+
+    .project-info {
+        margin-left: 0;
+    }
+
+    .project-info .small-number {
+        left: -15px;
+    }
+
+    #advantages #guarantee-container #quote {
+        height: 285px;
+    }
+
+    #advantages #guarantee-container #quote #quotes-signature {
+        width: 90px;
+    }
+
+    #advantages #guarantee-container #quote #quotes-author {
+        width: 180px;
+    }
+
+}
+
+@media screen and (max-width: 382px) {
+
+    .guaranty .guaranty-info .guaranty-info-text {
+        max-width: 300px;
+    }
+
+    #guaranties {
+        height: 1220px;
+    }
+
+    .slick-prev {
+        left: 10px;
+    }
+
+    .slick-next {
+        right: 10px;
+    }
+
+    #titles-action button.btn {
+        margin: 97px auto 80px auto;
+        width: 240px;
+    }
+
+    #titles-action {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #titles-key span {
+        font-size: 19px;
+    }
+
+    #titles-kitchen {
+        text-align: center;
+    }
+
+    .project-info .project-info-text .project-info-text-description {
+        margin-left: 25px;
+    }
+
+
+}
+
+@media screen and (max-width: 350px) {
+
+    .title h2 span {
+        font-size: 29px;
+    }
+
+    .title h2 {
+        font-size: 29px;
+    }
+
+    .title span.line {
+        margin-right: 20px;
+    }
+
+    .slick-prev {
+        left: 3px;
+    }
+
+    .slick-next {
+        right: 3px;
+    }
+
+    .project-info .small-number {
+        left: -5px;
+    }
+
+    .project-image {
+        box-shadow: 0px 5px 11px 0px rgba(62, 46, 30, 0.1);
+    }
+
+    #advantages-container-images {
+        display: none;
+    }
+
+    #advantages #guarantee-container #quote #quotes-author {
+        right: 110px;
+        top: 232px;
+    }
+
+    #advantages #guarantee-container #quote #quotes-signature {
+        right: 15px;
+        bottom: 15px;
+    }
+
+    #reviews #reviews-container .reviews-video iframe {
+        box-shadow: 0px 16px 10px -5px rgba(197, 185, 175, 0.76);
+    }
+
+    #order #order-container #order-form {
+        box-shadow: 0px 5px 10px 2px rgba(239, 226, 213, 1);
+    }
+
+    .project-info .project-info-text .project-info-text-description {
+        font-size: 15px;
+    }
+
+    .project-info .project-info-text .project-info-text-title {
+        font-size: 15px;
+    }
+
+    .project-info .project-info-properties .project-info-property span {
+        font-size: 15px;
+    }
+
+    #advantages {
+        padding: 0px 7px;
+    }
+
+    #reviews #reviews-container .reviews-video iframe {
+        width: 290px;
+        height: 164px;
+    }
+
+    #order-container {
+        padding: 0px 8px;
+        box-sizing: border-box;
+    }
+
+    #order #order-container #order-text {
+        margin: 49px 10px 70px 10px;
+    }
+
+    #advantages #advantages-container #advantages-container-items .advantage-item .advantage-item-title svg {
+        width: 17px;
+    }
+
+    #advantages #guarantee-container #guarantee {
+        box-shadow: 0px 16px 6px 2px rgba(223, 197, 171, 0.5);
+    }
+
+    .title {
+        margin-top: 70px;
+    }
+
+    #order #order-container .title {
+        margin-top: 70px;
+    }
+
+}
+
+@media screen and (max-width: 321px) {
+
+    #titles-kitchen {
+        font-size: 29px;
+    }
+
+    #titles-key span {
+        font-size: 18px;
+    }
+
+    .title h2 {
+        font-size: 28px;
+    }
+
+    .slick-prev {
+        left: -5px;
+    }
+
+    .slick-next {
+        right: -5px;
+    }
+
+    .project-image {
+        border: none;
+    }
+
+    .slick-dots {
+        top: 280px;
+    }
+
+    .project-image {
+        left: 2px;
+    }
+
+    #guaranties {
+        height: 1270px;
+    }
+
+}
