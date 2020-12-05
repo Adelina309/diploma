@@ -48,9 +48,9 @@ $(document).ready(() => {
         let name = $('#name');
         let phone = $('#phone');
         let time = $('#time');
-        name.css('border-color', 'black');
-        phone.css('border-color', 'black');
-        time.css('border-color', 'black');
+        name.css('border-color', 'rgb(126, 123, 121)');
+        phone.css('border-color', 'rgb(126, 123, 121)');
+        time.css('border-color', 'rgb(126, 123, 121)');
         $('#order-error').hide();
 
         if (name.val() && phone.val() && time.val()) {
