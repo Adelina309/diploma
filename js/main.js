@@ -14,8 +14,8 @@ $(document).ready(() => {
     $('#reservation button.btn').click(() =>{
         let reserve_name = $('#reserve-name');
         let reserve_phone = $('#reserve-phone');
-        reserve_name.css('border-color', 'black');
-        reserve_phone.css('border-color', 'black');
+        reserve_name.css('border-color', 'rgb(126, 123, 121)');
+        reserve_phone.css('border-color', 'rgb(126, 123, 121)');
         $('#reserve-error').hide();
 
         if (reserve_name.val() && reserve_phone.val()) {
