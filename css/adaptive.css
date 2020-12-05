@@ -6,8 +6,8 @@
 }
 
 
-/*1200-1212*/
-@media screen and (max-width: 1212px) {
+/*1200-1213*/
+@media screen and (max-width: 1213px) {
     #main {
         padding: 0 15px;
         box-sizing: border-box;
@@ -25,6 +25,8 @@
     #projects {
         padding: 0 15px;
         box-sizing: border-box;
+        max-width: 1000px;
+        margin: 0 auto;
     }
 
     .project-info .project-info-properties .project-info-property {
@@ -50,10 +52,6 @@
         padding: 0 15px;
         box-sizing: border-box;
     }
-}
-
-/*1024-1184*/
-@media screen and (max-width: 1184px) {
 
     .slick-initialized .slick-slide {
         display: flex;
@@ -105,19 +103,53 @@
         right: 30px;
     }
 
-    #reviews-container {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    #reviews #reviews-container .reviews-video iframe {
+        width: 465px;
+        height: 273px;
     }
+
+    #projects > div.projects.slick-initialized.slick-slider.slick-dotted > div {
+        height: 970px;
+    }
+
+    .slick-dotted.slick-slider {
+        max-width: 1000px;
+        margin: 0 auto 30px auto;
+    }
+
+    .project-info {
+         margin-left: unset;
+    }
+
+    #projects > div.projects.slick-initialized.slick-slider.slick-dotted > div {
+        height: 980px;
+    }
+
+}
+
+/*1024-1184*/
+@media screen and (max-width: 1184px) {
+
 
     #advantages #guarantee-container #quote #quote-quotes {
         right: 588px;
     }
 
+    #reviews #reviews-container .reviews-video iframe {
+        width: 455px;
+        height: 257px;
+    }
+
 }
 
-/*1091-1124*/
+@media screen and (max-width: 1170px) {
+    #reviews #reviews-container .reviews-video iframe {
+        width: 435px;
+        height: 245px;
+    }
+}
+
+    /*1091-1124*/
 @media screen and (max-width: 1124px) {
     #advantages #guarantee-container #quote #quote-quotes {
         right: 552px;
@@ -127,6 +159,11 @@
 
 /*1024-1090*/
 @media screen and (max-width: 1090px) {
+
+    #header .logo {
+        padding-right: 155px;
+    }
+
     #second-guaranty {
         top: 310px;
         right: 15px;
@@ -174,6 +211,17 @@
 
     #statistics .statistics-item .statistics-item-text {
         font-size: 17px;
+    }
+
+    #reviews-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #reviews #reviews-container .reviews-video iframe {
+        width: 655px;
+        height: 345px;
     }
 
 }
@@ -262,6 +310,79 @@
         line-height: 30px;
     }
 
+    .slick-dotted.slick-slider {
+        max-width: 800px;
+        margin: 0 auto 30px auto;
+    }
+
+    .project-image {
+        width: 675px;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .slick-prev {
+        left: 10px;
+    }
+
+    .slick-next {
+        right: 10px;
+    }
+
+    .slick-dots {
+        top: 450px;
+    }
+
+    #projects > div.projects.slick-initialized.slick-slider.slick-dotted > div {
+        height: 880px;
+    }
+
+    #first-guaranty {
+        position: relative;
+        top: unset;
+        left: unset;
+        right: unset;
+        margin: 50px auto;
+    }
+
+    #second-guaranty {
+        position: relative;
+        top: unset;
+        left: unset;
+        right: unset;
+        margin: 50px auto;
+    }
+
+    #third-guaranty {
+        position: relative;
+        top: unset;
+        left: unset;
+        right: unset;
+        margin: 50px auto;
+    }
+
+    #fourth-guaranty {
+        position: relative;
+        top: unset;
+        left: unset;
+        right: unset;
+        margin: 50px auto;
+    }
+
+    #guaranty-container {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #guaranties-container  .title {
+        margin-bottom: 50px;
+    }
+
+    #guaranties {
+        height: 1160px;
+        background-size: auto 100%;
+    }
 
 }
 
@@ -306,24 +427,23 @@
         padding-right: 60px;
     }
 
-    #second-guaranty {
-        top: 335px;
-    }
-
-    #fourth-guaranty {
-        top: 715px;
-    }
-
-    .slick-prev {
-        left: 70px;
-    }
-
-    .slick-next {
-        right: 70px;
-    }
-
     #statistics .statistics-item .statistics-item-number {
-        height: 160px;
+        height: 150px;
+    }
+
+    #statistics .statistics-item .statistics-item-text {
+        font-size: 17px;
+        max-width: 205px;
+    }
+
+
+}
+
+/*768-900*/
+@media screen and (max-width: 900px){
+
+    #pop-up-container {
+        width: 700px;
     }
 
 }
@@ -353,27 +473,6 @@
 
     #advantages-container-images {
         width: 420px;
-    }
-
-    #first-guaranty {
-        top: 80px;
-    }
-
-    #second-guaranty {
-        top: 310px;
-    }
-
-    #third-guaranty {
-        top: 470px;
-    }
-
-    #statistics .statistics-item .statistics-item-number {
-        height: 150px;
-    }
-
-    #statistics .statistics-item .statistics-item-text {
-        font-size: 17px;
-        max-width: 205px;
     }
 
     #statistics {
@@ -421,16 +520,28 @@
         display: block;
         font-size: 40px;
         color: white;
+        padding-top: 20px;
+    }
+
+    #titles-kitchen {
+        margin-top: 110px;
     }
 
     #header {
         position: relative;
     }
 
+    #header.menu-open {
+        margin: 0 -15px;
+        padding: 0 15px;
+        background: rgba(0, 0, 0, 0.6);
+
+    }
+
     #menu {
-        top: 76px;
+        top: 73px;
         right: 0;
-        position: absolute;
+        position: fixed;
         background: rgba(0, 0, 0, 0.6);
         z-index: 3;
         width: 100%;
@@ -453,7 +564,6 @@
 
     .project-image {
         width: 614px;
-        height: 383px;
     }
 
     .slick-dots {
@@ -461,16 +571,38 @@
     }
 
     .slick-prev {
-        left: 20px;
+        top: 270px;
     }
 
     .slick-next {
-        right: 20px;
+        top: 270px;
+    }
+
+    .slick-dots {
+        top: 415px;
+    }
+
+    #projects > div.projects.slick-initialized.slick-slider.slick-dotted > div {
+        height: 850px;
+    }
+
+    #reviews #reviews-container .reviews-video iframe {
+        width: 625px;
+        height: 340px;
     }
 }
 
 /*580-815*/
 @media screen and (max-width: 815px) {
+
+    #statistics .statistics-item .statistics-item-number {
+        order: 1;
+    }
+
+    #statistics .statistics-item .statistics-item-text {
+        order: 2;
+    }
+
     #advantages #guarantee-container #quote {
         width: 99%;
         top: 322px;
@@ -535,6 +667,11 @@
         background-size: auto 100%;
     }
 
+    #reviews #reviews-container .reviews-video iframe {
+        width: 585px;
+        height: 320px;
+    }
+
 }
 
 /*580-767*/
@@ -546,23 +683,6 @@
 
     #titles-key span {
         font-size: 22px;
-    }
-
-    #second-guaranty {
-        top: 320px;
-    }
-
-    #third-guaranty {
-        top: 500px;
-    }
-
-    #fourth-guaranty {
-        top: 760px;
-    }
-
-    #guaranties {
-        height: 1135px;
-        background-size: auto 100%;
     }
 
     #projects .title {
@@ -589,7 +709,7 @@
 
     #advantages-container-images {
         position: absolute;
-        width: 100%;
+        width: 95%;
         opacity: 0.07;
     }
 
@@ -603,13 +723,6 @@
 
 /*480-745*/
 @media screen and (max-width: 745px) {
-    .slick-prev {
-        left: 52px;
-    }
-
-    .slick-next {
-        right: 52px;
-    }
 
     #projects #projects-text {
         margin: 45px auto 0 auto;
@@ -633,6 +746,69 @@
         left: 165px;
     }
 
+    #reviews #reviews-container .reviews-video iframe {
+        width: 555px;
+        height: 310px;
+    }
+
+    #pop-up-container {
+        width: 600px;
+    }
+
+    #reservation-text {
+        font-size: 18px;
+        margin: 0 auto 40px auto;
+        max-width: 450px;
+    }
+
+    #reservation h1 {
+        margin: 45px auto 15px auto;
+    }
+
+}
+
+
+@media screen and (max-width: 745px) {
+
+    #guaranties {
+        height: 1210px;
+    }
+
+    .title span.line {
+        display: none;
+    }
+
+    .title h2 {
+        margin: 0 auto;
+    }
+
+}
+
+
+/*480-720*/
+@media screen and (max-width: 720px) {
+
+    .project-image {
+        width: 514px;
+    }
+
+    .slick-dots {
+        top: 355px;
+    }
+
+    .slick-prev, .slick-next {
+        top: 230px;
+    }
+
+    #projects > div.projects.slick-initialized.slick-slider.slick-dotted > div {
+        height: 780px;
+    }
+
+    #reviews #reviews-container .reviews-video iframe {
+        width: 500px;
+        height: 280px;
+    }
+
 }
 
 /*480-681*/
@@ -645,6 +821,12 @@
 
 /*480-680*/
 @media screen and (max-width: 680px) {
+
+    #reviews #reviews-container .reviews-video iframe {
+        width: 450px;
+        height: 250px;
+    }
+
     #advantages #guarantee-container #quote #quote-text {
         position: static;
         margin: 0 auto;
@@ -662,21 +844,22 @@
 
     .project-image {
         width: 491px;
-        height: 306px;
     }
 
     .slick-prev {
-        left: 10px;
-        top: 240px;
+        top: 220px;
     }
 
     .slick-next {
-        right: 10px;
-        top: 240px;
+        top: 220px;
     }
 
     .slick-dots {
-        top: 350px;
+        top: 340px;
+    }
+
+    #projects > div.projects.slick-initialized.slick-slider.slick-dotted > div {
+        height: 765px;
     }
 
     #statistics {
@@ -693,42 +876,6 @@
     #statistics .statistics-item .statistics-item-text {
         max-width: 310px;
         font-size: 18px;
-    }
-
-    #first-guaranty {
-        position: relative;
-        top: unset;
-        left: unset;
-        right: unset;
-        margin: 50px auto;
-    }
-
-    #second-guaranty {
-        position: relative;
-        top: unset;
-        left: unset;
-        right: unset;
-        margin: 50px auto;
-    }
-
-    #third-guaranty {
-        position: relative;
-        top: unset;
-        left: unset;
-        right: unset;
-        margin: 50px auto;
-    }
-
-    #fourth-guaranty {
-        position: relative;
-        top: unset;
-        left: unset;
-        right: unset;
-        margin: 50px auto;
-    }
-
-    .guaranty {
-        position: relative;
     }
 
     #guaranty-container {
@@ -757,7 +904,8 @@
     }
 
     #projects .title {
-        margin-top: 30px;
+        margin-top: 80px;
+        margin-bottom: 60px;
     }
 
     #order #order-container #order-form {
@@ -773,6 +921,37 @@
         margin: 0 auto;
         padding: 30px 0 15px 0;
         max-width: 400px;
+    }
+
+    #pop-up-container {
+        width: 500px;
+    }
+
+    #reservation #form-container {
+        align-items: center;
+        margin-right: 0;
+    }
+
+    #reservation form p {
+        top: -52px;
+        right: 127px;
+    }
+
+    #reservation img {
+        display: none;
+    }
+
+    #reservation-agreed {
+        margin-right: unset;
+    }
+
+    #reservation-sent #reservation-sent-text {
+        font-size: 20px;
+        font-family: "GilroyMedium",sans-serif;
+        color: rgb(56, 25, 0);
+        margin: 100px auto 100px auto;
+        text-align: center;
+        max-width: 300px;
     }
 
 }
@@ -797,6 +976,11 @@
     #advantages #guarantee-container #quote #quote-quotes {
         right: 510px;
     }
+
+    #reviews #reviews-container .reviews-video iframe {
+        width: 400px;
+        height: 220px;
+    }
 }
 
 /*480-610*/
@@ -806,17 +990,27 @@
         left: 10px;
     }
 
+    .project-image {
+        width: 470px;
+    }
+
     .slick-prev {
-        left: 45px;
+        top: 210px;
     }
 
     .slick-next {
-        right: 45px;
+        top: 210px;
+    }
+
+    .slick-dots {
+        top: 330px;
+    }
+
+    #projects > div.projects.slick-initialized.slick-slider.slick-dotted > div {
+        height: 750px;
     }
 
 }
-
-
 
 /*480-579*/
 @media screen and (max-width: 579px) {
@@ -836,21 +1030,21 @@
 
     .project-image {
         width: 393px;
-        height: 251px;
     }
-
-    .slick-prev {
-        left: 10px;
-        top: 200px;
-    }
-
-    .slick-next {
-        right: 10px;
-        top: 200px;
+    .slick-prev, .slick-next {
+        top: 185px;
     }
 
     .slick-dots {
-        top: 310px;
+        top: 285px;
+    }
+
+    .project-info .small-number {
+        left: -70px;
+    }
+
+    #projects > div.projects.slick-initialized.slick-slider.slick-dotted > div {
+        height: 700px;
     }
 
     #order #order-container #order-form {
@@ -859,6 +1053,22 @@
 
     #order-form #order-error {
         left: 100px;
+    }
+
+    #pop-up-container {
+        width: 400px;
+    }
+
+    #reservation-text {
+        font-size: 17px;
+        margin: 0 auto 40px auto;
+        max-width: 310px;
+    }
+
+    #reservation form p {
+        top: -50px;
+        right: 87px;
+        font-size: 16px;
     }
 
 }
@@ -888,7 +1098,7 @@
     }
 
     #titles #icon {
-        top: 450px;
+        top: 460px;
     }
 
     .title h2 {
@@ -959,17 +1169,6 @@
 
 /*480-499*/
 @media screen and (max-width: 515px) {
-    .slick-prev {
-        left: 47px;
-    }
-
-    .slick-next {
-        right: 47px;
-    }
-
-    .project-info .small-number {
-        left: -70px;
-    }
 
     #advantages #guarantee-container #quote #quote-text {
         position: static;
@@ -977,16 +1176,29 @@
         padding-top: 50px;
         max-width: 400px;
     }
+
+    .project-info .small-number {
+        left: -30px;
+    }
 }
 
 /*480-499*/
 @media screen and (max-width: 499px) {
-    .slick-prev {
-        left: 36px;
+
+    .project-image {
+        width: 353px;
     }
 
-    .slick-next {
-        right: 36px;
+    .slick-prev, .slick-next {
+        top: 175px;
+    }
+
+    .slick-dots {
+        top: 305px;
+    }
+
+    #projects > div.projects.slick-initialized.slick-slider.slick-dotted > div {
+        height: 675px;
     }
 
     #guaranty-container {
@@ -1033,17 +1245,14 @@
 
     .project-image {
         width: 314px;
-        height: 201px;
     }
 
-    .slick-prev {
-        left: 10px;
-        top: 170px;
+    .slick-prev, .slick-next {
+        top: 160px;
     }
 
-    .slick-next {
-        right: 10px;
-        top: 170px;
+    .slick-dots {
+        top: 290px;
     }
 
     .project-info {
@@ -1051,7 +1260,11 @@
     }
 
     .project-info .small-number {
-        left: -50px;
+        left: -15px;
+    }
+
+    #projects > div.projects.slick-initialized.slick-slider.slick-dotted > div {
+        height: 670px;
     }
 
     #advantages #guarantee-container #guarantee {
@@ -1091,6 +1304,50 @@
         margin: 0 10px;
     }
 
+    #pop-up-container {
+        width: 300px;
+    }
+
+    #reservation h1 {
+        font-size: 30px;
+        font-family: "GilroyExtrabold",sans-serif;
+        color: rgb(56, 25, 0);
+        margin: 35px auto 15px auto;
+        text-align: center;
+    }
+
+    #reservation-text {
+        font-size: 16px;
+    }
+
+    #reservation form p {
+        top: -50px;
+        right: 40px;
+        font-size: 15px;
+    }
+
+    #reservation form input {
+        border-width: 1px;
+        border-color: rgb(126, 123, 121);
+        border-style: solid;
+        background-color: rgb(255, 246, 238);
+        border-radius: 35px;
+        width: 272px;
+        padding: 25px 0 25px 25px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        outline: none;
+    }
+
+    #reservation button.btn {
+        margin-bottom: 22px;
+        width: 272px;
+    }
+
+    #reservation-sent #reservation-sent-text {
+        max-width: 250px;
+    }
+
 }
 
 /*320-476*/
@@ -1100,12 +1357,12 @@
         max-width: 340px;
     }
 
-    .slick-prev {
-        left: 40px;
+    #guaranties {
+        height: 1200px;
     }
 
-    .slick-next {
-        right: 40px;
+    #first-guaranty, #second-guaranty, #third-guaranty, #fourth-guaranty {
+        margin: 50px auto 0 0;
     }
 
     #order #order-container #order-form {
@@ -1148,12 +1405,20 @@
         font-size: 16px;
     }
 
-    .slick-prev {
-        left: 25px;
+    .project-image {
+        width: 284px;
     }
 
-    .slick-next {
-        right: 25px;
+    .slick-prev, .slick-next {
+        top: 155px;
+    }
+
+    .slick-dots {
+        top: 273px;
+    }
+
+    #projects > div.projects.slick-initialized.slick-slider.slick-dotted > div {
+        height: 650px;
     }
 
 }
@@ -1168,13 +1433,6 @@
         left: -20px;
     }
 
-    .slick-prev {
-        left: 20px;
-    }
-
-    .slick-next {
-        right: 20px;
-    }
 
     .project-info .project-info-properties {
         justify-content: center;
@@ -1194,6 +1452,36 @@
         left: -15px;
     }
 
+    .project-image {
+        width: 330px;
+        border: 6px solid white;
+        box-shadow: 0px 5px 10px -1px rgba(62, 46, 30, 0.1);
+    }
+
+    .slick-dots {
+        top: 295px;
+    }
+
+    .slick-prev, .slick-next {
+        top: 175px;
+    }
+
+    .slick-next {
+        right: 18px;
+    }
+
+    .slick-prev {
+        left: 18px;
+    }
+
+    #projects > div.projects.slick-initialized.slick-slider.slick-dotted > div {
+        height: 740px;
+    }
+
+    #statistics {
+        margin: 100px 20px 100px 20px;
+    }
+
     #advantages #guarantee-container #quote {
         height: 285px;
     }
@@ -1206,24 +1494,12 @@
         width: 180px;
     }
 
-}
-
-@media screen and (max-width: 382px) {
-
     .guaranty .guaranty-info .guaranty-info-text {
         max-width: 300px;
     }
 
     #guaranties {
-        height: 1220px;
-    }
-
-    .slick-prev {
-        left: 10px;
-    }
-
-    .slick-next {
-        right: 10px;
+        height: 1200px;
     }
 
     #titles-action button.btn {
@@ -1248,7 +1524,35 @@
         margin-left: 25px;
     }
 
+    #projects > div.projects.slick-initialized.slick-slider.slick-dotted > div {
+        height: 775px;
+    }
+}
 
+@media screen and (max-width: 366px) {
+
+    .project-image {
+        width: 320px;
+    }
+
+    .slick-dots {
+        top: 290px;
+    }
+
+    .slick-next {
+        right: 15px;
+    }
+
+    .slick-prev {
+        left: 15px;
+    }
+
+}
+
+@media screen and (max-width: 356px) {
+    #guaranties {
+        height: 1200px;
+    }
 }
 
 @media screen and (max-width: 350px) {
@@ -1266,11 +1570,13 @@
     }
 
     .slick-prev {
-        left: 3px;
+        left: 17px;
+        top: 170px;
     }
 
     .slick-next {
-        right: 3px;
+        right: 17px;
+        top: 170px;
     }
 
     .project-info .small-number {
@@ -1278,7 +1584,15 @@
     }
 
     .project-image {
-        box-shadow: 0px 5px 11px 0px rgba(62, 46, 30, 0.1);
+        width: 300px;
+    }
+
+    .slick-dots {
+        top: 280px;
+    }
+
+    #projects > div.projects.slick-initialized.slick-slider.slick-dotted > div {
+        height: 755px;
     }
 
     #advantages-container-images {
@@ -1349,6 +1663,32 @@
         margin-top: 70px;
     }
 
+
+
+}
+
+@media screen and (max-width: 335px) {
+
+    .project-image {
+        width: 285px;
+    }
+
+    .slick-dots {
+        top: 270px;
+    }
+
+    #projects > div.projects.slick-initialized.slick-slider.slick-dotted > div {
+        height: 765px;
+    }
+
+    .slick-next {
+        top: 165px;
+    }
+
+    .slick-prev {
+        top: 165px;
+    }
+
 }
 
 @media screen and (max-width: 321px) {
@@ -1365,28 +1705,16 @@
         font-size: 28px;
     }
 
-    .slick-prev {
-        left: -5px;
-    }
-
     .slick-next {
-        right: -5px;
+        right: 11px;
     }
 
-    .project-image {
-        border: none;
-    }
-
-    .slick-dots {
-        top: 280px;
-    }
-
-    .project-image {
-        left: 2px;
+    .slick-prev {
+        left: 11px;
     }
 
     #guaranties {
-        height: 1270px;
+        height: 1200px;
     }
 
 }

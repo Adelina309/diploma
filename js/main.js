@@ -5,8 +5,8 @@ $(document).ready(() => {
         $('#reservation').show();
     });
 
-    $('#pop-up').click((e) => {
-        if (e.target.id === 'pop-up') {
+    $('#reservation-cancel, #pop-up').click((e) => {
+        if (e.target.id === 'pop-up'|| e.target.id === 'reservation-cancel-close') {
             $('#pop-up').hide();
         }
     });
@@ -98,5 +98,9 @@ $(document).ready(() => {
     $('#header #menu').click(() => {
         $('#header').removeClass('menu-open');
     });
+
+    new WOW({
+        animateClass: 'animate__animated',
+    }).init();
 
 });

@@ -132,7 +132,6 @@ button.btn{
     font-size: 20px;
     font-family: "ProximaNova",sans-serif;
     color: rgb(255, 255, 255);
-    font-weight: bold;
     cursor: pointer;
     letter-spacing: 0.02em;
     outline: none;
@@ -194,6 +193,7 @@ button.btn{
     background-position: bottom center;
     background-repeat: no-repeat;
     height: 929px;
+    overflow: hidden;
 }
 
 .rectangle{
@@ -326,18 +326,13 @@ button.btn{
 
 /*projects*/
 
-* {
-    min-height: 0;
-    min-width: 0;
-}
-
 #projects{
     max-width: 1200px;
     margin: 0 auto;
 }
 
 #projects #projects-text {
-    margin: 45px 55px 0 125px;
+    margin: 45px 55px 0 138px;
     max-width: 1004px;
     font-size: 20px;
     font-family: "GilroyMedium",sans-serif;
@@ -346,7 +341,6 @@ button.btn{
 }
 
 .projects {
-    /*max-width: 1340px;*/
     margin: 0 auto;
 }
 
@@ -433,8 +427,9 @@ button.btn{
     display: flex;
 }
 
-.slick-list{
-    /*overflow: visible;*/
+.slick-dotted.slick-slider {
+    max-width: 1200px;
+    margin: 0 auto 30px auto;
 }
 
 .slick-track {
@@ -446,8 +441,7 @@ button.btn{
 }
 
 #projects > div.projects.slick-initialized.slick-slider.slick-dotted > div {
-
-    /*height: 620px;*/
+    height: 620px;
 }
 
 #projects .slick-prev:before {
@@ -505,21 +499,28 @@ button.btn{
     margin: 0 auto;
 }
 
+#advantages-container-images {
+    overflow: hidden;
+}
+
 
 #statistics {
     display: flex;
-    margin: 185px 20px;
+    margin: 80px 20px;
     justify-content: space-between;
     align-items: center;
 }
 
-#statistics .statistics-item{
+#statistics .title{
+    margin-top: 160px;
+}
+
+#statistics .statistics-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    max-width: 303px;
 }
 
 #statistics .statistics-item .statistics-item-number:hover {
@@ -531,6 +532,7 @@ button.btn{
     font-family: "GilroyMedium",sans-serif;
     color: rgb(56, 25, 0);
     line-height: 35px;
+    max-width: 313px;
 }
 
 #statistics .statistics-item .statistics-item-text span {
@@ -731,7 +733,7 @@ button.btn{
     font-family: "GilroyMedium",sans-serif;
     color: rgb(31, 14, 7);
     line-height: 1;
-    margin: 49px 0 82px 135px;
+    margin: 49px 0 82px 138px;
 }
 
 #reviews #reviews-container {
@@ -763,6 +765,10 @@ button.btn{
 
 /*order*/
 
+#order{
+    overflow: hidden;
+}
+
 #order #order-container{
     max-width: 1200px;
     margin: 0 auto;
@@ -778,7 +784,7 @@ button.btn{
     font-family: "GilroyMedium",sans-serif;
     color: rgb(56, 25, 0);
     line-height: 1.75;
-    margin: 49px 0 70px 135px;
+    margin: 49px 0 70px 138px;
     max-width: 718px;
 }
 
@@ -841,6 +847,7 @@ button.btn{
 
 #order #order-container #order-form button.btn {
     margin-top: 20px;
+    letter-spacing: 1px;
 }
 
 #order #order-container #order-form button.btn:hover{
@@ -965,10 +972,10 @@ button.btn{
     justify-content: center;
     align-items: center;
     display: none;
-    /*display: flex;*/
 }
 
 #pop-up-container {
+    position: relative;
     border-radius: 20px;
     background-color: rgb(255, 246, 238);
     width: 816px;
@@ -980,7 +987,6 @@ button.btn{
     position: relative;
     margin: 0 auto;
     display: none;
-    /*display: block;*/
 }
 
 #reservation h1 {
@@ -1056,7 +1062,7 @@ button.btn{
     position: absolute;
     top: -48px;
     right: 35px;
-    /*display: none;*/
+    display: none;
 }
 
 #reservation-agreed {
@@ -1085,7 +1091,16 @@ button.btn{
     text-align: center;
 }
 
+
+#reservation-cancel {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
 #burger {
     display: none;
 }
+
+
 
